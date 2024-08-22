@@ -62,3 +62,27 @@ hr {
     border: none;
     border-top: 1px solid hsl(215, 32%, 27%);
 }
+
+.footer {
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+    margin-top: .5rem;
+}
+
+.avatar {
+    width: 35px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.name {
+    font-weight: 300;
+    font-size: 1.1rem;
+    color: hsl(215, 51%, 70%);
+}
+
+.name a {
+    color: white;
+    text-decoration: none;
+}
