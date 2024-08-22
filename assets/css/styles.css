@@ -28,4 +28,32 @@ main {
     color: white;
     margin: 1.5rem 0;
     font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.description {
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+}
+
+.row {
+    display: flex;
+    margin: 1.5rem 0;
+    font-size: 1.1rem;
+    justify-content: space-between;
+}
+
+.price {
+    gap: .5rem;
+    display: flex;
+    align-items: center;
+    color: hsl(178, 100%, 50%);
+}
+
+.time {
+    gap: .5rem;
+    display: flex;
+    align-items: center;
+    color: hsl(215, 51%, 70%);
 }
