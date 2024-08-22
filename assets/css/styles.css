@@ -20,15 +20,41 @@ main {
     background-color: hsl(216, 50%, 16%);
 }
 
+.img {
+    position: relative;
+}
+
 .equilibrium_img {
+    width: 100%;
     border-radius: 12px;
+}
+
+.view {
+    top: 0;
+    height: 99%;
+    width: 100%;
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    place-items: center;
+    border-radius: 12px;
+    background-color: hsla(178, 100%, 50%, 0.5);
+}
+
+.img:hover .view {
+    display: grid;
 }
 
 .heading {
     color: white;
+    cursor: pointer;
     margin: 1.5rem 0;
     font-weight: 600;
     font-size: 1.5rem;
+}
+
+.heading:hover {
+    color: hsl(178, 100%, 50%);
 }
 
 .description {
@@ -82,7 +108,13 @@ hr {
     color: hsl(215, 51%, 70%);
 }
 
-.name a {
+.name a,
+.name a:visited {
     color: white;
+    cursor: pointer;
     text-decoration: none;
+}
+
+.name a:hover {
+    color: hsl(178, 100%, 50%);
 }
